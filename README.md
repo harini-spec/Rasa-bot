@@ -1,5 +1,8 @@
 Run the bot in the terminal:
 ```
+conda create -y python=3.7 --name rasa 
+conda activate rasa  
+pip install -r requirements.txt
 rasa train --fixed-model-name contact_bot 
 rasa shell
 ```
