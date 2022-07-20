@@ -1,5 +1,6 @@
 Run the bot in the terminal:
 ```
+rasa train --fixed-model-name contact_bot 
 rasa shell
 ```
 
