@@ -1,0 +1,17 @@
+version: '2.0'
+intents:
+- greet
+- supply_contact_info
+entities:
+- name
+- email
+slots:
+  name:
+    type: text
+  email:
+    type: text
+responses:
+  utter_ask_for_contact_info:
+  - text: Hello! Could you please provide your contact information?
+  utter_acknowledge_provided_info:
+  - text: Thanks {name}, for the info!
